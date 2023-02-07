@@ -1,3 +1,12 @@
 ### Instructions to Run the Project
 
-## deployed link: ```https://weatherappclient.onrender.com/```
+#### 1) ```cd client``` 
+#### 2) ```npm install``` 
+#### 3) ```cd server``` 
+#### 4) ```npm install``` 
+#### 5) ```cd client``` 
+#### 5) ```npm start``` 
+#### 6) ```cd server``` 
+#### 7) ```npm start``` 
+
+## Deployment Link : ```https://weatherappclient.onrender.com/```
