@@ -14,7 +14,8 @@ function App() {
   // use Effect Hook that fetches the data from the API in the backend for every 10 minutes and whenever the page changes
   useEffect(() => {
     const fetchDataHandler = async () => {
-      axios.get('http://localhost:8080/getCoordinates/v1', {
+      // axios.get('http://localhost:8080/getCoordinates/v1', {
+      axios.get('https://weather-app-r216.onrender.com/getCoordinates/v1/', {
         params: {
           page,
           pageSize: 10,
